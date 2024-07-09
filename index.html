@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>shopping website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    </head>
+    <body>
+        <div id="zoomedImageContainer" class="zoomed-image-container" style="display:none;">
+            <span id="closeZoomedImage" class="close-zoom">&times;</span>
+            <img id="zoomedImage" src="" alt="Zoomed Image">
+        </div>
+        <section id="header">
+            <a href ="#"><img src="image/logo36.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href = "index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+          
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deal</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+    <a href="shop.html">
+        <button>Shop Now</button>
+    </a>
+    </section>
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Proceed to Payment</h3>
+            <p>Are you sure you want to proceed to payment?</p>
+            <button id="confirmPayment">Yes, Proceed</button>
+        </div>
+    </div>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="image/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f3.png" alt="">
+            <h6>save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f6.png" alt="">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer collection new modern design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/w1.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹998</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/w2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Women's Frock</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹689</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/w13.avif">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Formal T-shirt</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹758</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/m1.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Monsoon T-shirt</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹845</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/w7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Crazy T-shirt</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹645</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/w15.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Shirt with coat</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹4125</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/w8.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>plaza</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹2999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/k1.webp">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Kid's Wear</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹3565</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Service</h4>
+        <h2> Upto <span>70% Off</span> - All T-shirts and Accessories</h2>
+        <a href="explore.html"><button class="normal" >Explore more</button></a>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer collection new modern design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/shoe1.avif" >
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Style Shoes</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹3214</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/shoe2.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Trendy Shoes</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹3213</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/r1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Womens Ring</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1425</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/r2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5> Gold Ring</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹921</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/chain1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Simple Chain</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1654</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/chain2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Jeans short</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹987</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/watch2.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Formal watch</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹2999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="image/watch1.webp" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Branded Watch</h5>
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹1999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2> buy 1 get 1 free</h2>
+            <span> The best classic dresses is on sales at N&D</span>
+           <a href="learnmore.html"><button class="white">Learn more</button></a> 
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2> Upcoming seasons</h2>
+            <span> The best classic dresses is on sales at N&D</span>
+            <button class="white">Collections</button>
+        </div>
+    </section>
+        
+    <section id="banner3">
+        <div class="banner-box">
+            <h2> Seasonal sales</h2>
+            <h3>Winter collection -50% Off</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2> New Footwear collections</h2>
+            <h3>Spring/Summer 2022</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2> T-shirts</h2>
+            <h3>New Trendy print</h3>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4> Signup for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" id="newsletterEmailInput" placeholder="your e-mail address">
+            <button class="normal" onclick="validateEmail('newsletterEmailInput', 'confirmation')">Signup</button>
+        </div>
+        <p id="confirmation" class="confirmation" style="display: none;">Thank you for subscribing! You're now signed up to receive email updates about our latest shop additions and special offers. We'll keep you posted on all the exciting news!</p>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="image/logo36.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 526 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong>+01 2222365/ (+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="image/pay/app.jpg" alt="">
+                <img src="image/pay/play.jpg" alt="">
+            </div>
+            <p>Secured payment Gateways</p>
+            <img src="image/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> © 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+     <script>
+        // Get the modal
+var modal = document.getElementById("paymentModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Get the button that opens the modal
+var cartIcons = document.querySelectorAll(".cart");
+
+// When the user clicks on the cart icon, open the modal
+cartIcons.forEach(function (icon) {
+    icon.onclick = function () {
+        modal.style.display = "block";
+    }
+});
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+// When the user clicks "Yes, Proceed", navigate to payment page
+var confirmPaymentBtn = document.getElementById("confirmPayment");
+confirmPaymentBtn.onclick = function () {
+    // Navigate to the payment page
+    window.location.href = "payment.html";
+}
+// Get all product containers
+var productContainers = document.querySelectorAll('.pro-container');
+
+// Iterate over each product container
+productContainers.forEach(function(container) {
+    // Get all products within this container
+    var products = container.querySelectorAll('.pro');
+
+    // Iterate over each product
+    products.forEach(function(product) {
+        // Get size buttons inside this product
+        var sizeButtons = product.querySelectorAll('.size-btn');
+
+        // Add click event listener to each size button
+        sizeButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                // Check if the button is already active
+                var isActive = button.classList.contains('active');
+
+                // Remove active class from all buttons in this product
+                sizeButtons.forEach(function(btn) {
+                    btn.classList.remove('active');
+                });
+
+                // Toggle active class on the clicked button
+                if (!isActive) {
+                    button.classList.add('active');
+                }
+            });
+        });
+    });
+});
+
+var zoomedImageContainer = document.getElementById("zoomedImageContainer");
+        var closeZoomedImage = document.getElementById("closeZoomedImage");
+        var zoomedImage = document.getElementById("zoomedImage");
+
+        var productImages = document.querySelectorAll('.pro img');
+
+        productImages.forEach(function(image) {
+            image.addEventListener('click', function() {
+                zoomedImage.src = image.src;
+                zoomedImageContainer.style.display = "flex";
+            });
+        });
+
+        closeZoomedImage.addEventListener('click', function() {
+            zoomedImageContainer.style.display = "none";
+        });
+
+        zoomedImageContainer.addEventListener('click', function(event) {
+            if (event.target === zoomedImageContainer) {
+                zoomedImageContainer.style.display = "none";
+            }
+        });
+     </script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    </head>
+    <body>
+        <section id="header">
+            <a href ="#"><img src="image/logo36.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="blog-header">
+      
+        <h2>#readmore</h2>
+        
+        <p>Read all case studies about our products!</p>
+       
+    </section>
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="image/blog45.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
+                <p>This clothing item has found its way into a variety of styles, even so far as to be worn under a suit jacket.</p>
+                <p class="hidden-paragraph" style="display: none;">This clothing item has found its way into a variety of styles, even so far as to be worn under a suit jacket. Hoodies with zippers are generally referred to as zip-up hoodies.</p>
+                <P class="continue" onclick="toggleVisibility(this)">CONTINUE READING</P>
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="image/blog23.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>How to style a Clothing</h4>
+                <p>Kickstarter man braid godard colouring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</p>
+                <p class="hidden-paragraph" style="display: none;">Style refers to a person's individual way of dressing and presenting themselves, including their choice of clothing, accessories, hair, makeup, and overall aesthetic. It is a personal expression of one's identity, personality, and tastes.</p>
+                <P class="continue" onclick="toggleVisibility(this)">CONTINUE READING</P>
+           
+            </div>
+            <h1>13/04</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="image/blog78.png" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Must have skater-girl items</h4>
+                <p>Oversized or loose-fitting tops are common in the skater style. For sneakers, vans skate shoes are a classic choice, but other brands like Nike SB, Converse, or Etnies are popular as well. Top off your look with a beanie or a snapback hat featuring skate brand logos or graphics.</p>
+                <p class="hidden-paragraph" style="display: none;">You can wear pretty much anything, but vintage and skate-brand shirts are the most popular among skaters. You can wear a faded t-shirt, a fitted shirt, or even a tank top. Consider wearing a fitted top if you are wearing baggy pants. Consider going vintage.</p>
+                <P class="continue" onclick="toggleVisibility(this)">CONTINUE READING</P>
+            </div>
+            <h1>12/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="image/blog9.avif" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Runway-inspired Trends</h4>
+                <p>Society and current events are reflected in fashion as they have always been. Celebrities, musicians, and other high-profile individuals may also influence fashion trends. As long as people have been changing their looks, the concept of a trend or a trend has been around.</p>
+                <p class="hidden-paragraph" style="display: none;"> Cultural influences play a significant role in fashion trends, inspiring designers to incorporate elements from diverse traditions, aesthetics, and craftsmanship into their collections.</p>
+                <P class="continue" onclick="toggleVisibility(this)">CONTINUE READING</P>
+            </div>
+            <h1>16/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="image/blog47.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>AW20 Mensware Trends</h4>
+                <p>Shorts have been steadily getting shorter and shorter – and the shrinking continues. For the Spring/Summer 2024 season, shorts crept a few inches further up men's thighs and designers have been proposing another round of the barely-there micro-short.</p>
+                <p class="hidden-paragraph" style="display: none;">Over four days, renowned fashion houses such as Prada and Fendi show their latest collections, alongside emerging talents including Miaoran and Magliano – setting menswear trends for the year ahead. </p>
+                <P class="continue" onclick="toggleVisibility(this)">CONTINUE READING</P>
+            </div>
+            <h1>10/03</h1>
+        </div>
+    </section>
+   
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4> Signup for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" id="newsletterEmailInput" placeholder="your e-mail address">
+            <button class="normal" onclick="validateEmail('newsletterEmailInput', 'confirmation')">Signup</button>
+        </div>
+        <p id="confirmation" class="confirmation" style="display: none;">Thank you for subscribing! You're now signed up to receive email updates about our latest shop additions and special offers. We'll keep you posted on all the exciting news!</p>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="image/logo36.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 526 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong>+01 2222365/ (+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="image/pay/app.jpg" alt="">
+                <img src="image/pay/play.jpg" alt="">
+            </div>
+            <p>Secured payment Gateways</p>
+            <img src="image/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> © 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+    <script>
+       function toggleVisibility(element) {
+            var hiddenParagraph = element.parentNode.querySelector(".hidden-paragraph");
+            if (hiddenParagraph.style.display === "none") {
+                hiddenParagraph.style.display = "block";
+                element.style.display = "none";
+            } else {
+                hiddenParagraph.style.display = "none";
+            }
+        }
+        </script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
