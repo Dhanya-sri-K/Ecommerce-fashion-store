@@ -67,7 +67,11 @@ Includes sponsor information and a feedback form to gather user opinions.
 
 
 **Project Highlights**
+
 Intuitive UI/UX with smooth navigation.
+
 Realistic shopping cart and checkout functionality.
+
 Modular code structure for future scalability.
+
 Responsive design for optimal viewing on various devices.
